@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+body{
+    background-image: url(darknight.jpg);
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+span{
+    color: white;
+}
+p{
+    color: white;
+}
+.main-nav {
+    text-align: center;
+    margin-top: 10px;
+    list-style: none;
+    background-color: rgb(161, 190, 243);
+}
+.main-nav__list {
+    display: inline-block;
+    font-size: 30px;
+}
+
+.main-nav__list a {
+    padding: 5px;
+    text-decoration: none;
+}
+
+.main-nav__list a:hover {
+    color: white;
+}
+
+.main-nav__list a:active {
+    color: red;
+}
+
+.main-form{
+    
+    width: 50%;
+   /* border: 5px solid rgb(0, 89, 255);*/
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding:5px 5px;
+}
+
+.main-form__label{
+   padding: 0px 120px;
+   
+}
+.main-form__botones{
+    margin: 250px;
+}
+
+/*
+.prueba{
+    color: red;
+}
+.prueba-herencia{
+    color: inherit;
+}
+*/
