@@ -33,6 +33,8 @@ main{
     flex-direction: column;
     align-content: center;
     font-size: 1.6rem;
+    background-color: black;
+    color: white;
 }
 
 .titulo {
