@@ -50,6 +50,8 @@ footer{
     font-size: 1.6rem;
     display: flex;
     justify-content: center;
+    margin-top: 50%; 
+    
 }
 
 .formulario {
