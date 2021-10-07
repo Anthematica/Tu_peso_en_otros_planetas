@@ -1,69 +1,88 @@
 *{
     box-sizing: border-box;
+    margin: 0;
     padding: 0;
-    margin:0;
 }
-body{
-    background-image: url(darknight.jpg);
-    background-size: cover;
+html{
+    font-size: 62.5%;
 }
 
-h1{
-    text-align: center;
-    color: white;
+header{
+    background-color: cadetblue;
+    font-size: 2.4rem;
+    display: flex;
+    justify-content: center;
 }
-span{
-    color: white;
-}
-p{
-    color: white;
-}
+
 .main-nav {
-    text-align: center;
-    margin-top: 10px;
+    display: flex; 
     list-style: none;
-    background-color: rgb(161, 190, 243);
-}
-.main-nav__list {
-    display: inline-block;
-    font-size: 30px;
+
 }
 
+.main-nav__list {
+    padding: 0.5rem;
+}
 .main-nav__list a {
-    padding: 5px;
     text-decoration: none;
 }
 
-.main-nav__list a:hover {
-    color: white;
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    font-size: 1.6rem;
 }
 
-.main-nav__list a:active {
-    color: red;
+.titulo {
+    /* background-color: crimson; */
 }
 
-.main-form{
-    
-    width: 50%;
-   /* border: 5px solid rgb(0, 89, 255);*/
-    margin-top: 25px;
-    margin-bottom: 25px;
-    padding:5px 5px;
+.formulario {
+    /* background-color: darkgreen;*/
+} 
+
+footer{
+    width: 100%;
+    height: 5rem;
+    background-color: darkslateblue;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
 }
 
-.main-form__label{
-   padding: 0px 120px;
-   
-}
-.main-form__botones{
-    margin: 250px;
+.formulario {
+    display: flex;
+    justify-content: center;
 }
 
-/*
-.prueba{
-    color: red;
+.main-form__botones {
+    display: flex;
+    justify-content: center;
 }
-.prueba-herencia{
-    color: inherit;
+
+.main-form__botones input {
+    margin: 1rem;
 }
-*/
+
+.ElegirPlaneta {
+    margin-left: 7.7rem;
+}
+
+.main-form {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.main-form__label {
+    margin: 1rem;
+}
+
+
+
+
+
+
+
+
