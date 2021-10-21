@@ -18,7 +18,7 @@
   <body>
     <header>
       <!-- Logo -->
-      <img src="./Assets/icons8-over-the-moon-48.png" alt="">
+      <img src="./Assets/icons8-over-the-moon-48.png" alt="" class="header--logo">
       <!-- Texto principal y secundario -->
       <div class="header--title-container">
           <h1>¿Te gustaría saber tu peso en otros planetas?</h1>
@@ -26,48 +26,31 @@
       </div>
     </header>
     <main>
-      <section>
-
-      </section>
-      <section>
-
-      </section>
-    </main>
-    <!-- <main>
-      <div class="titulo">
-        <h1>
-          ¿Quieres saber tu peso en los distinos planetas del sistema solar? 🌎
-        </h1>
-      </div>
-      <section class="formulario">
-        <form action="" , class="main-form">
-          <label for="peso" class="main-form__label">
-            <span>Peso en la Tierra: </span>
-            <input style="width: 49px;" type="number" id="peso" placeholder="95" required />
-            <strong>Kg</strong> 
-          </label>
-          <label for="Planetas" class="main-form__label">
-            <span class="ElegirPlaneta">Elija el planeta:</span>
-            <select  name="" id="Planetas" required>
-              <option value="Mercurio">Mercurio</option>
-              <option value="Venus">Venus</option>
-              <option value="Tierra">Tierra</option>
-              <option value="Marte">Marte</option>
-              <option value="Jupiter">Jupiter</option>
-              <option value="Saturno">Saturno</option>
-              <option value="Neptuno">Neptuno</option>
-              <option value="Urano">Urano</option>
-              <option value="Pluton">Pluton</option>
-            </select>
-          </label> 
-          <label class="main-form__botones">
-            <input type="button" value="Calcular" />
-            <input type="reset" />
-        
-          </label>
+      <section class="main--principal"> 
+        <form action="" class="main--form">
+          <h2>Ingresa tu peso en kilogramos a continuación:</h2>
+          <input class="main--section--inputs" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+          <input class="main--section--inputs" type="number"    name="peso" id="peso" placeholder="ingrese su peso">
+          <select  name="" id="Planetas" required class="main--section--inputs">
+            <option value="Mercurio">Mercurio</option>
+            <option value="Venus">Venus</option>
+            <option value="Tierra">Tierra</option>
+            <option value="Marte">Marte</option>
+            <option value="Jupiter">Jupiter</option>
+            <option value="Saturno">Saturno</option>
+            <option value="Neptuno">Neptuno</option>
+            <option value="Urano">Urano</option>
+            <option value="Pluton">Pluton</option>
+          </select>
+          <button class="main--button">
+          Calcular peso
+          </button>
+          <input type="reset" name="limpiar" id="limpiar"  class="main--button">
         </form>
-      </section>
-    </main>  -->
+
+        
+      </section>  
+    </main>
     <footer>
       DERECHOS RESERVADOS 
     </footer>

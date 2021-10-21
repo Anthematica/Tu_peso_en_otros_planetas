@@ -3,10 +3,137 @@
     margin: 0;
     padding: 0;
 }
+
+:root {
+    --Primary-color: #091353;
+    --Secondary-color: #9D84B7;
+    --Third--color: #D5D5D5;
+    --Fourth-color: #B2F9FC;
+}
 html{
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
 }
+/*Estilos al header*/
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    min-width: 320px;
+    height: 334px;
+    background:  linear-gradient(207.8deg, #201E1C 16.69%, #091353 100%); /*Degradado*/
+}
+
+ /*Estilos al icono del header*/
+.header--logo{
+    background-repeat: no-repeat; /*Cuando la imagen que estamos utilizando es muy pequeña, esta suele repetirse para rellenar el espacio, para evitar esto usamos esta propiedad*/
+    background-position: center; /*Que la imagen quede al centro al 100%*/
+    background-size: contain; /*Para que la imagen se aproxime al tamaño del contenedor*/
+    width: 70px;
+    height: 70px;
+    margin-top: 60px;
+}
+
+/*Estilos al div*/
+.header--title-container {
+    width: 90%;
+    min-width: 288px; /*No va a hacerse más pequeño que 288px*/
+    max-width: 900px; /*No va a crecer más que 900px*/
+    height: 218px;
+    margin-top: 40px;
+}
+
+/*Estilos al h1*/
+header h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--Fourth-color);
+}
+/*Estilos al parrafo del header*/
+.header--title-container p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--Fourth-color);
+    margin-top: 24px;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background: black;
+}
+
+
+/*Estilos a la seccion principal*/
+.main--principal {
+    width: 300px;
+    height: auto;
+    min-width: 248px;
+    max-width: 900px;  
+    text-align: center;  
+}
+
+.main--resultado{
+    width: 300px;
+    height: auto;
+    min-width: 248px;
+    max-width: 900px;  
+    text-align: center;  
+}
+
+.main--principal h2 {
+    font-size: 1.8rem;
+    color: var(--Third--color);
+}
+
+/*Agregando estilos al form*/
+.main--form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+/*Agregando estilos a los inputs*/
+.main--form .main--section--inputs {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid  var(--Primary-color);
+    font-size: 1.4rem;
+}
+
+/*Agregando estilos a los botones*/
+.main--form .main--button {
+    margin-top: 8px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+
+
+
+
+
+
+/*Estilos al footer*/
+footer {
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    bottom: 0;
+    background: var(--Primary-color);
+}
+
 
 
 
