@@ -8,6 +8,17 @@ const gravedadSaturno = 10.4;
 const gravedadNeptuno = 11.2;
 const gravedadUrano = 8.9;
 
+//Peso en la Tierra
+const elementoPeso = document.getElementById("peso");
+const pesoTierra = elementoPeso.value;
+//Boton de calcular
+var button = document.getElementById("calcularPeso");
+
+//Funcion que calcule los pesos
+function pesoPlanetas (planeta){
+    
+}
+
 //Peso en Mercurio
 function pesoMercurio(pesoTierra){
     return (pesoTierra*gravedadMercurio)/gravedadTierra;
@@ -36,3 +47,4 @@ function pesoNeptuno(pesoTierra){
 function pesoUrano(pesoTierra){
     return (pesoTierra*gravedadUrano)/gravedadTierra;
 }
+
