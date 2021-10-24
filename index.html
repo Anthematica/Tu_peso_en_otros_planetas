@@ -28,13 +28,12 @@
     <main>
       <section class="main--principal"> 
         <form action="" class="main--form">
-          <h2>Ingresa tu peso en kilogramos a continuación:</h2>
+          <h2>Ingresa tu peso en libras a continuación:</h2>
           <input class="main--section--inputs" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
-          <input class="main--section--inputs" type="number"    name="peso" id="peso" placeholder="ingrese su peso">
+          <input class="main--section--inputs" type="number"  name="peso" id="peso" placeholder="ingrese su peso">
           <select  name="" id="Planetas" required class="main--section--inputs">
             <option value="Mercurio">Mercurio</option>
             <option value="Venus">Venus</option>
-            <option value="Tierra">Tierra</option>
             <option value="Marte">Marte</option>
             <option value="Jupiter">Jupiter</option>
             <option value="Saturno">Saturno</option>
@@ -42,13 +41,15 @@
             <option value="Urano">Urano</option>
             <option value="Pluton">Pluton</option>
           </select>
-          <button  type="button" class="main--button" id="calcularPeso">
+          <button  type="button" class="main--button" id="calcularPeso" onclick="pesoPlanetas()">
           Calcular peso
           </button>
           <input type="reset" name="limpiar" id="limpiar"  class="main--button">
         </form>
-
-        
+      </section>
+      <section class="main--respuesta" >
+        <p id="Resultado">
+        </p>
       </section>  
     </main>
     <script src="./Javascript.js">
