@@ -109,8 +109,10 @@ main .main--respuesta p {
 }
 
 .main--principal h2 {
+    margin-top: 10px;
+    margin-bottom: 15px;
     font-size: 1.8rem;
-    color: var(--Third--color);
+    color: white;
 }
 
 /*Agregando estilos al form*/
@@ -137,6 +139,10 @@ main .main--respuesta p {
     padding: 5px;
     border-radius: 5px;
     
+}
+
+#calcularPeso {
+    margin-top: 35px;
 }
 
 /* Estilos al footer */
