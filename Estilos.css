@@ -86,7 +86,7 @@ main .main--respuesta {
 
 /*Estilos al parrafo*/
 main .main--respuesta p {
-    margin-top: 20px;
+    margin: 10px 10px;
 }
 
 /*Estilos a la seccion principal*/
