@@ -9,6 +9,7 @@ const gravedadNeptuno = 11.2;
 const gravedadUrano = 8.9;
 const gravedadPluton = 0.62;
 
+
 //Funcion que calcule los pesos
 function pesoPlanetas() {
    //Nombre del usuario 

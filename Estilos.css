@@ -82,6 +82,8 @@ main .main--respuesta {
     border-radius: 5px;
     font-size: 1.6rem;
     color: var(--Third--color);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /*Estilos al parrafo*/
