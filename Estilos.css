@@ -32,8 +32,8 @@ header {
     background-repeat: no-repeat; /*Cuando la imagen que estamos utilizando es muy pequeña, esta suele repetirse para rellenar el espacio, para evitar esto usamos esta propiedad*/
     background-position: center; /*Que la imagen quede al centro al 100%*/
     background-size: contain; /*Para que la imagen se aproxime al tamaño del contenedor*/
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
     margin-top: 60px;
 }
 
